@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://aconews-webapp-backend.onrender.com",
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "@nextui-org/card": "^2.0.33",
     "@testing-library/jest-dom": "^5.17.0",

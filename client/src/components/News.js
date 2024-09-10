@@ -114,7 +114,7 @@ const News = () => {
             <div className=' grid lg:grid-cols-3 lg:px-32 md:grid-cols-2 gap-8 p-8 '>
                 {articles.map(article => (
                     <div className=' bg-white rounded-[15px] flex overflow-auto flex-col'>
-                       <img src={article.image} className=' h-[150px]' />
+                       <img src={article.image} className=' h-[190px]' />
                        <a href={article.url} target='_blank'><h3 className=' font-bold mt-1 text-[18px] p-4 text-[#2377fe] text-center cursor-pointer'>{article.title}</h3></a> 
                         <p className=' px-4 text-gray-500'>{article.description}</p>
                         <div className=' flex items-center justify-between p-4'>

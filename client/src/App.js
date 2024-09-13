@@ -1,4 +1,3 @@
-// news-frontend/src/App.js
 import React from 'react';
 import News from './components/News';
 

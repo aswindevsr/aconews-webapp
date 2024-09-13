@@ -1,7 +1,7 @@
 // news-frontend/src/api.js
 import axios from 'axios';
 
-const API_BASE_URL = '/api'; // Thanks to the proxy
+const API_BASE_URL = `${process.env.REACT_APP_BACKEND_URL}/api`; // Thanks to the proxy
 
 // Fetch top headlines with pagination
 export const fetchNews = (page = 1, limit = 10) => {
